@@ -11,6 +11,7 @@ int main() {
     aircraft *my_mass;
     int count = input_count();
     my_mass=(aircraft *) calloc(count,sizeof(aircraft));
+    if (my_mass==NULL) return -1;
     input_mass(my_mass, count);
     grouping(my_mass, count);
     print(my_mass, count);

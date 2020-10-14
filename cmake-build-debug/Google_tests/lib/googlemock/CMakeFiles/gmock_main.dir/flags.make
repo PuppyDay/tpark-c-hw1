@@ -6,5 +6,5 @@ CXX_FLAGS = --coverage -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGT
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nina/учеба/технопарк/Homework/include -isystem /home/nina/учеба/технопарк/Homework/Google_tests/lib/googlemock/include -isystem /home/nina/учеба/технопарк/Homework/Google_tests/lib/googlemock -isystem /home/nina/учеба/технопарк/Homework/Google_tests/lib/googletest/include -isystem /home/nina/учеба/технопарк/Homework/Google_tests/lib/googletest 
+CXX_INCLUDES = -I/home/nina/учеба/технопарк/hw-1/tpark-c-hw1/include -isystem /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/Google_tests/lib/googlemock/include -isystem /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/Google_tests/lib/googlemock -isystem /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/Google_tests/lib/googletest/include -isystem /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/Google_tests/lib/googletest 
 

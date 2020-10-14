@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/nina/учеба/технопарк/Homework/source_lib/input_output.c" "/home/nina/учеба/технопарк/Homework/cmake-build-debug/CMakeFiles/Homework.dir/source_lib/input_output.c.o"
-  "/home/nina/учеба/технопарк/Homework/source_lib/logic.c" "/home/nina/учеба/технопарк/Homework/cmake-build-debug/CMakeFiles/Homework.dir/source_lib/logic.c.o"
-  "/home/nina/учеба/технопарк/Homework/source_lib/main.c" "/home/nina/учеба/технопарк/Homework/cmake-build-debug/CMakeFiles/Homework.dir/source_lib/main.c.o"
+  "/home/nina/учеба/технопарк/hw-1/tpark-c-hw1/source_lib/input_output.c" "/home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug/CMakeFiles/Homework.dir/source_lib/input_output.c.o"
+  "/home/nina/учеба/технопарк/hw-1/tpark-c-hw1/source_lib/logic.c" "/home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug/CMakeFiles/Homework.dir/source_lib/logic.c.o"
+  "/home/nina/учеба/технопарк/hw-1/tpark-c-hw1/source_lib/main.c" "/home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug/CMakeFiles/Homework.dir/source_lib/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

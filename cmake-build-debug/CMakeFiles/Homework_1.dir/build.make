@@ -63,10 +63,10 @@ RM = /snap/clion/129/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nina/учеба/технопарк/Homework
+CMAKE_SOURCE_DIR = /home/nina/учеба/технопарк/hw-1/tpark-c-hw1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nina/учеба/технопарк/Homework/cmake-build-debug
+CMAKE_BINARY_DIR = /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Homework_1.dir/depend.make
@@ -79,16 +79,16 @@ include CMakeFiles/Homework_1.dir/flags.make
 
 CMakeFiles/Homework_1.dir/source_lib/logic.c.o: CMakeFiles/Homework_1.dir/flags.make
 CMakeFiles/Homework_1.dir/source_lib/logic.c.o: ../source_lib/logic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nina/учеба/технопарк/Homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Homework_1.dir/source_lib/logic.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Homework_1.dir/source_lib/logic.c.o   -c /home/nina/учеба/технопарк/Homework/source_lib/logic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Homework_1.dir/source_lib/logic.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Homework_1.dir/source_lib/logic.c.o   -c /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/source_lib/logic.c
 
 CMakeFiles/Homework_1.dir/source_lib/logic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Homework_1.dir/source_lib/logic.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nina/учеба/технопарк/Homework/source_lib/logic.c > CMakeFiles/Homework_1.dir/source_lib/logic.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/source_lib/logic.c > CMakeFiles/Homework_1.dir/source_lib/logic.c.i
 
 CMakeFiles/Homework_1.dir/source_lib/logic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Homework_1.dir/source_lib/logic.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nina/учеба/технопарк/Homework/source_lib/logic.c -o CMakeFiles/Homework_1.dir/source_lib/logic.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/source_lib/logic.c -o CMakeFiles/Homework_1.dir/source_lib/logic.c.s
 
 # Object files for target Homework_1
 Homework_1_OBJECTS = \
@@ -100,7 +100,7 @@ Homework_1_EXTERNAL_OBJECTS =
 libHomework_1.a: CMakeFiles/Homework_1.dir/source_lib/logic.c.o
 libHomework_1.a: CMakeFiles/Homework_1.dir/build.make
 libHomework_1.a: CMakeFiles/Homework_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nina/учеба/технопарк/Homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libHomework_1.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libHomework_1.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Homework_1.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Homework_1.dir/link.txt --verbose=$(VERBOSE)
 
@@ -114,6 +114,6 @@ CMakeFiles/Homework_1.dir/clean:
 .PHONY : CMakeFiles/Homework_1.dir/clean
 
 CMakeFiles/Homework_1.dir/depend:
-	cd /home/nina/учеба/технопарк/Homework/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nina/учеба/технопарк/Homework /home/nina/учеба/технопарк/Homework /home/nina/учеба/технопарк/Homework/cmake-build-debug /home/nina/учеба/технопарк/Homework/cmake-build-debug /home/nina/учеба/технопарк/Homework/cmake-build-debug/CMakeFiles/Homework_1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nina/учеба/технопарк/hw-1/tpark-c-hw1 /home/nina/учеба/технопарк/hw-1/tpark-c-hw1 /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug/CMakeFiles/Homework_1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Homework_1.dir/depend
 

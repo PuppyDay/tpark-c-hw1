@@ -63,10 +63,10 @@ RM = /snap/clion/129/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nina/учеба/технопарк/Homework
+CMAKE_SOURCE_DIR = /home/nina/учеба/технопарк/hw-1/tpark-c-hw1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nina/учеба/технопарк/Homework/cmake-build-debug
+CMAKE_BINARY_DIR = /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/depend.make
@@ -79,16 +79,16 @@ include Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/flags.make
 
 Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/flags.make
 Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: ../Google_tests/lib/googletest/src/gtest_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nina/учеба/технопарк/Homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
-	cd /home/nina/учеба/технопарк/Homework/cmake-build-debug/Google_tests/lib/googletest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/nina/учеба/технопарк/Homework/Google_tests/lib/googletest/src/gtest_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+	cd /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug/Google_tests/lib/googletest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/Google_tests/lib/googletest/src/gtest_main.cc
 
 Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest_main.dir/src/gtest_main.cc.i"
-	cd /home/nina/учеба/технопарк/Homework/cmake-build-debug/Google_tests/lib/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nina/учеба/технопарк/Homework/Google_tests/lib/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
+	cd /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug/Google_tests/lib/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/Google_tests/lib/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
 
 Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest_main.dir/src/gtest_main.cc.s"
-	cd /home/nina/учеба/технопарк/Homework/cmake-build-debug/Google_tests/lib/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nina/учеба/технопарк/Homework/Google_tests/lib/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
+	cd /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug/Google_tests/lib/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/Google_tests/lib/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
 
 # Object files for target gtest_main
 gtest_main_OBJECTS = \
@@ -100,9 +100,9 @@ gtest_main_EXTERNAL_OBJECTS =
 lib/libgtest_maind.a: Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 lib/libgtest_maind.a: Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make
 lib/libgtest_maind.a: Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nina/учеба/технопарк/Homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libgtest_maind.a"
-	cd /home/nina/учеба/технопарк/Homework/cmake-build-debug/Google_tests/lib/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
-	cd /home/nina/учеба/технопарк/Homework/cmake-build-debug/Google_tests/lib/googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libgtest_maind.a"
+	cd /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug/Google_tests/lib/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
+	cd /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug/Google_tests/lib/googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/build: lib/libgtest_maind.a
@@ -110,10 +110,10 @@ Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/build: lib/libgtest_maind.
 .PHONY : Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/build
 
 Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/clean:
-	cd /home/nina/учеба/технопарк/Homework/cmake-build-debug/Google_tests/lib/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
+	cd /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug/Google_tests/lib/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
 .PHONY : Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/clean
 
 Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/depend:
-	cd /home/nina/учеба/технопарк/Homework/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nina/учеба/технопарк/Homework /home/nina/учеба/технопарк/Homework/Google_tests/lib/googletest /home/nina/учеба/технопарк/Homework/cmake-build-debug /home/nina/учеба/технопарк/Homework/cmake-build-debug/Google_tests/lib/googletest /home/nina/учеба/технопарк/Homework/cmake-build-debug/Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nina/учеба/технопарк/hw-1/tpark-c-hw1 /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/Google_tests/lib/googletest /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug/Google_tests/lib/googletest /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug/Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/depend
 

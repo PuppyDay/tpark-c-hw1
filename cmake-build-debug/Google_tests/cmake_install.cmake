@@ -1,4 +1,4 @@
-# Install script for directory: /home/nina/учеба/технопарк/Homework/Google_tests
+# Install script for directory: /home/nina/учеба/технопарк/hw-1/tpark-c-hw1/Google_tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/nina/учеба/технопарк/Homework/cmake-build-debug/Google_tests/lib/cmake_install.cmake")
+  include("/home/nina/учеба/технопарк/hw-1/tpark-c-hw1/cmake-build-debug/Google_tests/lib/cmake_install.cmake")
 endif()
 

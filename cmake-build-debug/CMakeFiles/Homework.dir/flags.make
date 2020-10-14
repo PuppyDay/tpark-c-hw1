@@ -6,5 +6,5 @@ C_FLAGS = --coverage -g   -std=gnu99
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/nina/учеба/технопарк/Homework/include 
+C_INCLUDES = -I/home/nina/учеба/технопарк/hw-1/tpark-c-hw1/include 
 

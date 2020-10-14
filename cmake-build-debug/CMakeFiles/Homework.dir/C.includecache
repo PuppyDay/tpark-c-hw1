@@ -6,33 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/nina/учеба/технопарк/Homework/source_lib/input_output.c
-input_output.h
-/home/nina/учеба/технопарк/Homework/source_lib/input_output.h
+/home/nina/учеба/технопарк/hw-1/tpark-c-hw1/source_lib/input_output.h
 logic.h
-/home/nina/учеба/технопарк/Homework/source_lib/logic.h
-stdio.h
--
-stdlib.h
--
+/home/nina/учеба/технопарк/hw-1/tpark-c-hw1/source_lib/logic.h
 
-/home/nina/учеба/технопарк/Homework/source_lib/input_output.h
-logic.h
-/home/nina/учеба/технопарк/Homework/source_lib/logic.h
+/home/nina/учеба/технопарк/hw-1/tpark-c-hw1/source_lib/logic.h
 
-/home/nina/учеба/технопарк/Homework/source_lib/logic.c
-logic.h
-/home/nina/учеба/технопарк/Homework/source_lib/logic.h
-memory.h
--
-
-/home/nina/учеба/технопарк/Homework/source_lib/logic.h
-
-/home/nina/учеба/технопарк/Homework/source_lib/main.c
+/home/nina/учеба/технопарк/hw-1/tpark-c-hw1/source_lib/main.c
 stdlib.h
 -
 logic.h
-/home/nina/учеба/технопарк/Homework/source_lib/logic.h
+/home/nina/учеба/технопарк/hw-1/tpark-c-hw1/source_lib/logic.h
 input_output.h
-/home/nina/учеба/технопарк/Homework/source_lib/input_output.h
+/home/nina/учеба/технопарк/hw-1/tpark-c-hw1/source_lib/input_output.h
 
