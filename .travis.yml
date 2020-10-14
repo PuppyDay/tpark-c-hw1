@@ -41,6 +41,5 @@ script:
   - ls
   - valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all --leak-resolution=med  --track-origins=yes chmod a+x ./tests.cpp
   - chmod a+x ./tests.cpp
- 
 after_script:
   bash <(curl -s https://codecov.io/bash) -t 9cd44aad-f87c-4445-9986-3f094c339d29
