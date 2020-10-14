@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.com/Gendina17/HW1-C.svg?branch=def)](https://travis-ci.com/Gendina17/HW1-C)
-[![codecov](https://codecov.io/gh/Gendina17/HW1-C/branch/def/graph/badge.svg?token=EV951IHSRP)](undefined)
+
 # HW1-C
 К РК №1 необходимо индивидуально решить ИЗ №1 по программированию на языке С в соответствии с назначенным вариантом, а также разбиться на команды, продумать идею семестровых проектов, разбить их на задачи и поделить их между участниками команды.
 
