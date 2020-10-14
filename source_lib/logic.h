@@ -2,9 +2,9 @@
 #define UNTITLED1_LOGIC_H
 
 typedef struct {
-    char label[30];
-    char model[30];
-    char purpose[30];
+    char label[32];
+    char model[32];
+    char purpose[32];
     int number_of_crew;
     float range_of_flight;
 } aircraft ;

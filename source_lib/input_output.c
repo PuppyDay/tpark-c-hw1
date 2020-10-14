@@ -35,7 +35,7 @@ int input_count(){
 }
 
 void input_mass(aircraft *my_mass, int count){
-    char help[10];
+    char help[12];
     for(int i = 0; i < count; i++){
         printf("Enter information about the %d aircraft:\n", i+1);
         fputs("Input label: ", stdout);

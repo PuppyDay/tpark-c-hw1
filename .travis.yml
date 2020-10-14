@@ -41,7 +41,7 @@ script:
   - ls
   - valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all --leak-resolution=med  --track-origins=yes chmod a+x ./tests.cpp
   - chmod a+x ./tests.cpp
-  - clang -coverage -O0 main.c -o main
+  - gcc -coverage -O0 main.c -o main
   - ./main
   - gcov main.c
 
