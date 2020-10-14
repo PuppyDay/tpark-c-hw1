@@ -1,1 +1,0 @@
-/usr/bin/cc --coverage -g   CMakeFiles/Homework.dir/source_lib/main.c.o CMakeFiles/Homework.dir/source_lib/input_output.c.o CMakeFiles/Homework.dir/source_lib/logic.c.o  -o Homework 
