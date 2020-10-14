@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHomework_1.a  CMakeFiles/Homework_1.dir/source_lib/logic.c.o
+/usr/bin/ranlib libHomework_1.a
