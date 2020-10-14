@@ -43,4 +43,4 @@ script:
   - chmod a+x ./tests.cpp
  
 after_script:
-  bash <(curl -s https://codecov.io/bash) -t 4045668d-56cd-4fcd-b3a8-a40ddf8f6258
+  bash <(curl -s https://codecov.io/bash) -t 9cd44aad-f87c-4445-9986-3f094c339d29
