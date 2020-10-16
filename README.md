@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.com/Gendina17/HW1-C.svg?branch=def)](https://travis-ci.com/Gendina17/HW1-C)
-[![codecov](https://codecov.io/gh/Gendina17/HW1-C/branch/def/graph/badge.svg?token=EV951IHSRP)](undefined)
+[![Build Status](https://travis-ci.com/Gendina17/tpark-c-hw1.svg?branch=dev)](https://travis-ci.com/Gendina17/tpark-c-hw1)
 # HW1-C
+                   Гендина Нина АПО-12
 К РК №1 необходимо индивидуально решить ИЗ №1 по программированию на языке С в соответствии с назначенным вариантом, а также разбиться на команды, продумать идею семестровых проектов, разбить их на задачи и поделить их между участниками команды.
 
 ИЗ1 посвящено приобретению навыков безопасной работы с памятью на языке C с использованием базовых структур данных и налаживания базовой инфраструктуры для автоматической проверки кода. В качестве результата ИЗ2 ожидается:
