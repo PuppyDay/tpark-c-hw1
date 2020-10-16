@@ -2,7 +2,8 @@
 #include <memory.h>
 
 void grouping(aircraft *my_aircraft, int count){
-    if (my_aircraft==NULL)return;
+    if (my_aircraft==NULL)
+        return;
     int counter=1;
     for(int i=0; i<count-1; i++){
         for(int j=i+1; j<count; j++){
@@ -25,6 +26,8 @@ void change(aircraft *last_struct, aircraft *new_struct){
 }
 
 void sort(int start, int finish, aircraft *my_aircraft){
+    if (my_aircraft==NULL)
+        return;
     int key=1, i=1;
     while (key!=0){
         key=0;

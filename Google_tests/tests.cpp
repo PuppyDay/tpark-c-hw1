@@ -29,7 +29,7 @@ TEST(SortRecors, test_2) //проверка функции сортировки 
     for(int i=0; i<size_mass; i++ ) {
         strcpy(mass[i].label, DEF);
         strcpy(mass[i].model, DEF);
-        strcpy(mass[i].model, DEF);
+        strcpy(mass[i].purpose, DEF);
         mass[i].number_of_crew = 100;
         mass[i].range_of_flight = 100.5 - i;
     }
